@@ -1,0 +1,46 @@
+
+section img{
+    width: 12rem;
+    height: 12rem;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+  }
+  section img:hover{
+    box-shadow: 1px 1px 2rem rgb(255, 255, 255);
+    
+    
+  }
+  
+  
+  .divCard{
+    border: solid 1px white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(135deg, black,black, black, white);
+    
+    
+  }
+  
+  .nombreCd{
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Gruppo', cursive;
+    
+  }
+  
+  .añoCd{
+    color: white;
+    font-family: 'Gruppo', cursive;
+  
+  }
+  
+  .detail{
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 1rem;
+    
+  }
+  
