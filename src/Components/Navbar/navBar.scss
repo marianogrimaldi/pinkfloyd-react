@@ -2,18 +2,16 @@
 .logo {
     height: 8rem;
     padding: 1.5em;
-    
     transition: 0.5s;
   }
+
   .logo:hover {
     filter: drop-shadow(2px 2px 1rem rgb(34, 0, 255));
   }
   
-
 .navBar {
     display: flex;
     max-width: 1200px;
-    
   }
   
   .butFlex{
@@ -29,12 +27,7 @@
    background-image:linear-gradient(45deg,black,black, black, rgb(114, 15, 103), red, orange, yellow, white )
   }
   
-  
-    
-  
-  
   button {
-    
     border-radius: 1rem;
     color: white;
     border: 2px solid transparent;
@@ -45,13 +38,13 @@
     font-weight: bolder;
     transition: 1s;
     cursor: pointer;
-    
-    
   }
+
   button:hover {
     border-color: #ffffff;
     color: goldenrod;
   }
+  
   button:focus,
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;

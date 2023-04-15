@@ -23,13 +23,8 @@ const Footer = () => {
             </div>
             <div>
                 <img src={logo} className="logoFooter" alt="" />
-            </div>
-            
+            </div>   
         </footer>
-
-
-
-
     )
 }
 

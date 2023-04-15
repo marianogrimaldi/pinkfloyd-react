@@ -1,20 +1,18 @@
 footer{
     background-color: black;
     background-image: linear-gradient(to right,black,black,black,rgb(0, 0, 108),black,black,black,);
-   
 }
 
 .footer{
     display: flex;
-    
     justify-content: center;
-   
     align-items: center;
 
     img {
         width: 2rem;
     }
   }
+  
 .ulFooter {
     list-style-type: none;
     font-family: 'Gruppo', cursive;

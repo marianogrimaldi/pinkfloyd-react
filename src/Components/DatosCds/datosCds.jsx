@@ -2,7 +2,6 @@ import EstructuraCds from "../Cds/cds"
 import "./datosCds.scss"
 
 
-
 const DatosCds = () => {
     return (
         <section className="sectionGrid">
@@ -78,10 +77,8 @@ const DatosCds = () => {
                         <img src="../../2014.jpg" alt="" />
                         <EstructuraCds  nombre="THE ENDLESS RIVER" año="2014"/>
                 </div>
- 
 </section>
     )
-
 }
 
 export default DatosCds

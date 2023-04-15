@@ -6,7 +6,6 @@ import carrito from "../../assets/img/carrito.png"
 
 const NavBar = () => {
     return (
-        
         <header className="headerFlex">
             < div>
                <img src= { logo } className="logo" alt="Logo Pink Floyd" />

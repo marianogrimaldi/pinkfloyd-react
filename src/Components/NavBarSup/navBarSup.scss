@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
 
-    
     .ulFlex{
         display: flex;
         list-style-type: none;
@@ -15,13 +14,8 @@
 
         li{
            transition: 1s; 
-        }
-        
-        
+        }  
     }
-      
-    
-       
     }
 
   li:hover{
