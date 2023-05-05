@@ -14,8 +14,13 @@ footer{
   }
   
 .ulFooter {
-    list-style-type: none;
+
+    li{
+        font-size: 1rem;
+        list-style-type: none;
     font-family: 'Gruppo', cursive;
+    }
+    
 }
 
 .footerFlex{

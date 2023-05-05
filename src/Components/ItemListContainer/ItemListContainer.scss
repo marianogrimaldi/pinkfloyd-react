@@ -1,8 +1,21 @@
-.title {
+
+
+.selectAlbum{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+  .ulFlexDecade{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-inline-start: 0px;
+    gap: 3rem;
+    font-family: 'Gruppo', cursive;
     color:white;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 3rem;
-    text-align: center;
-    margin: 0;
-    margin: 1rem;
+    margin-bottom: 2rem;
+
+        li{
+          font-size: 1.5rem;
+        }
   }

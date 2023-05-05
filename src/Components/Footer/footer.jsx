@@ -1,19 +1,19 @@
 import "./footer.scss"
 import logoMarian from "../../assets/img/logoMarian.png"
 import logo from "../../assets/img/pink.png"
-
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
         <footer className="footerFlex">
             <div>
             <ul className="ulFooter">
-                <li>home</li>
-                <li>band history</li>
-                <li>discography</li>
-                <li>gallery</li>
-                <li>official site</li>
-                <li>contact</li>
+                    <Link to="./."><li>home</li></Link>
+                    <Link to="./info"><li>info</li></Link>
+                    <Link to="./itemList">  <li>discography</li></Link>
+                    <a href="https://www.pinkfloyd.com/" target="blank"><li>official site</li></a>
+                    <Link to="./gallery"> <li>gallery</li></Link>
+                    <Link to="./contact"> <li>contact</li></Link>
             </ul>
             </div>
             <div className="footer">

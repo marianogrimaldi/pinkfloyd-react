@@ -1,20 +1,21 @@
 import "./cds.scss"
 
-
-const EstructuraCds = ({nombre, año}) => {
-   return (
-        <section>
-            <div className="divCard">
-                
-                <h3 className="nombreCd">{nombre}</h3>
-                <h4 className="añoCd">{año}</h4>
-                
+const CdsList = ( {items} ) => {
+    return(
+            <div className="sectionGrid">
+                {items.map((cd) => (
+                    <div  key={cd.id}>
+                        
+                        <img src={cd.img}/>
+                        <div className="detail">
+                        <h3 className="nombreCd">{cd.nombre}</h3>
+                        <h4 className="añoCd">{cd.año}</h4>
+                    </div>
             </div>
-            
-        </section>
-
-
+        ))}
+        </div>
     )
+    
 }
 
-export default EstructuraCds
+export default CdsList
