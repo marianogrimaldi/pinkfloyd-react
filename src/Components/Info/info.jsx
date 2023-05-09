@@ -3,10 +3,7 @@ import "./info.scss"
 
 const Info = () => {
     return(
-
         <div className="animation">
-            
-
             <p className="info">Pink Floyd is a British rock band, founded in London in 1965. Considered a cultural icon of the 20th century and one of the most influential, successful and acclaimed bands in the history of popular music, they gained great popularity within the underground circuit thanks to their psychedelic and spatial music , which over time evolved into progressive rock and symphonic rock, acquiring the popularity with which they are remembered today. She is known for her songs with a high philosophical content , sometimes political criticism , along with sound experimentation., the innovative covers of their albums and their elaborate live shows. Its sales exceed 280 million albums sold worldwide, 23 97.5 million of them only in the United States , 45 6 becoming one of the bands with the most sales in history.
 Initially the group consisted of drummer Nick Mason, keyboardist and vocalist Richard Wright, bassist and vocalist Roger Waters, and guitarist and lead vocalist Syd Barrett, who became the band's first leader after the short-lived stint of Bob Klose, which did not appear on any album. Barrett's erratic and unpredictable behavior, caused by excessive drug use (especially LSD ), 1 made his friend David Gilmour in December 1967joined the group. A few months later, Barrett left, and with the quartet made up of Mason, Wright, Waters and Gilmour, the definitive line-up of the group was established.
 Barrett's departure made Waters the band's primary lyricist , while Gilmour and Wright took the lead in musical composition. The group recorded many albums during this time that became extraordinary commercial successes, such as The Dark Side of the Moon (1973), Wish You Were Here (1975), Animals (1977), The Wall (1979) and The Final Cut ( 1983) records included, in fact, among the most influential in the history of popular music. After the recording sessions for The Wall, bassist Roger Waters expelled keyboardist Rick Wright from the band due to creative discrepancies. After The Final Cut the band was exhausted and out of ideas, until in 1985 Waters declared the dissolution of Pink Floyd. The remaining members, Gilmour and Mason, refused to accept this decision and continued with the group, for which Waters sued them claiming part of the rights to the Pink Floyd trademark. Waters lost the lawsuit in court, but, after an agreement with Gilmour and Mason, he obtained the exclusive rights to all the imagery they displayed in their concerts (such as their famous flying pig) and to the audiovisual show of The Wall(except for the three songs Gilmour had composed: "Young Lust", "Run Like Hell" and "Comfortably Numb"), as well as all the songs included in The Final Cut; in return, the rest of the group could henceforth continue to use the Pink Floyd name without restriction.
@@ -16,5 +13,4 @@ In a poll conducted by the British radio program Planet Rock in 2005, Pink Floyd
         </div>
     )
 }
-
 export default Info

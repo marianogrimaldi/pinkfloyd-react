@@ -1,0 +1,18 @@
+.gridGallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    img{
+        width: 15rem;
+        transition: 1s;
+    }
+    img:hover{
+        width: 18rem;
+        
+    }
+
+
+}

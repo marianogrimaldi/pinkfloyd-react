@@ -7,7 +7,7 @@ const Home = () => {
         <div className="animation">
             <h1 className="titleHome">
                 Welcome my son... <br/>
-                welocome to the machine
+                welcome to the machine
             </h1>
             <h3 className="SubT">The Pink Floyd experience</h3>
         </div>

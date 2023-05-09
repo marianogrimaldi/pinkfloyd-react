@@ -4,17 +4,18 @@ import logo from "../../assets/img/pink.png"
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
     return (
         <footer className="footerFlex">
             <div>
-            <ul className="ulFooter">
-                    <Link to="./."><li>home</li></Link>
+                <ul className="ulFooter">
+                    <Link to="./." ><li>home</li></Link>
                     <Link to="./info"><li>info</li></Link>
                     <Link to="./itemList">  <li>discography</li></Link>
-                    <a href="https://www.pinkfloyd.com/" target="blank"><li>official site</li></a>
+                    <a href="https://www.pinkfloyd.com/" target="blank_"><li>official site</li></a>
                     <Link to="./gallery"> <li>gallery</li></Link>
                     <Link to="./contact"> <li>contact</li></Link>
-            </ul>
+                </ul>
             </div>
             <div className="footer">
                 <img src={logoMarian} alt="" />

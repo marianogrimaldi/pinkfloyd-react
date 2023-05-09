@@ -1,7 +1,7 @@
 import "./ItemListContainer.scss"
 import { useEffect, useState } from "react"
 import pedirDatos from "../../Helpers/pedirDatos"
-import CdsList from "../Cds/cds"
+import ItemList from "../ItemList/ItemList"
 import CartWidget from '../CartWidget/cartWidget'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -14,9 +14,6 @@ import { Link } from 'react-router-dom'
     
     const { decadaCd } = useParams()
 
-
-
-    
      useEffect (() => {
         setLoading(true)
 
@@ -36,23 +33,20 @@ import { Link } from 'react-router-dom'
     return (
         <section className="animation">
             <div >
-           
-            <p className="selectAlbum">Selet your favorite album...</p>
-            <ul className="ulFlexDecade">
-            <Link to="itemList/decadaCd"><li>ALL</li></Link>
-               <Link to="/itemList/sesenta"> <li>1960</li></Link>
-               <Link to="/itemList/setenta"><li>1970</li></Link>
-               <Link to="/itemList/ochenta"><li>1980</li></Link>
-               <Link to="/itemList/noventa"><li>1990</li></Link>
-               <Link to="/itemList/dosmil"> <li>2000</li></Link>
-                <CartWidget/>
-            </ul>
+                <p className="selectAlbum">Select your favorite album...</p>
+                    <ul className="ulFlexDecade">
+                        <Link to="/itemList"><li>ALL</li></Link>
+                        <Link to="/itemList/sesenta"> <li>1960</li></Link>
+                        <Link to="/itemList/setenta"><li>1970</li></Link>
+                        <Link to="/itemList/ochenta"><li>1980</li></Link>
+                        <Link to="/itemList/noventa"><li>1990</li></Link>
+                        <Link to="/itemList/dosmil"> <li>2000</li></Link>
+                        <CartWidget/>
+                    </ul>
             </div>
-            
-            <div>
-                <CdsList items={productos}/>
+            <div >
+                <ItemList items={productos}/>
             </div>
-        
         </section>
     )
 }
