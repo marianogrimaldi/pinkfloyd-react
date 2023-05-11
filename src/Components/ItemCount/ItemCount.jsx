@@ -1,9 +1,9 @@
-import { useState } from "react"
+
 import "./ItemCount.scss"
 
 
-const ItemCount = ({stock, item }) => {
-    const[cantidad, setCantidad] = useState(1)
+const ItemCount = ({cantidad, setCantidad, stock, agregar}) => {
+    
 
     const handleRestar = () => {
         cantidad > 1 && setCantidad (cantidad - 1)
@@ -13,19 +13,14 @@ const ItemCount = ({stock, item }) => {
         cantidad < stock && setCantidad(cantidad + 1)
     }
 
-    const handleAdd = () => {
-        console.log({
-            ...item,
-            cantidad
-        })
-    }
+   
 
     return (
         <div className="flexHandle">
             <button onClick={handleRestar} >-</button>
             <span >{cantidad} </span>
             <button onClick={handleSumar} >+</button>
-            <button onClick={handleAdd}>add to cart</button>
+            <button onClick={agregar} >add to cart</button>
             <br/>
             
         </div>

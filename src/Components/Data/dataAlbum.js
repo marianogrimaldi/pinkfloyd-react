@@ -2,7 +2,7 @@ const data_Album = [
     {
         id: 1,
         nombre: "THE PIPPER AT THE GATES OF DAWN",
-        precio: 7.70,
+        precio: 7,
         stock: 20,
         img: "../../1967.jpg",
         año: 1967,
@@ -13,7 +13,7 @@ const data_Album = [
     {
         id: 2,
         nombre: "A SAUCERFUL OF SECRETS",
-        precio: 4.70,
+        precio: 4,
         stock: 20,
         img: "../../1968.jpg",
         año: 1968,
@@ -24,7 +24,7 @@ const data_Album = [
     {
         id: 3,
         nombre: "MORE",
-        precio: 6.80,
+        precio: 6,
         stock: 20,
         img: "../../1969bis.jpg",
         año: 1969,
@@ -35,7 +35,7 @@ const data_Album = [
     {
         id: 4,
         nombre: "UMMAGUMMA",
-        precio: 7.80,
+        precio: 7,
         stock: 20,
         img: "../../1969.jpg",
         año: 1969,
@@ -46,7 +46,7 @@ const data_Album = [
     {
         id: 5,
         nombre: "ATOM HEART MOTHER",
-        precio: 6.90,
+        precio: 6,
         stock: 20,
         img: "../../1970.png",
         año: 1970,
@@ -79,7 +79,7 @@ const data_Album = [
     {
         id: 8,
         nombre: "THE DARK SIDE OF THE MOON",
-        precio: 16.60,
+        precio: 16,
         stock: 20,
         img: "../../1973.svg",
         año: 1973,
@@ -101,7 +101,7 @@ const data_Album = [
     {
         id: 10,
         nombre: "ANIMALS",
-        precio: 13.80,
+        precio: 13,
         stock: 20,
         img: "../../1977.jpg",
         año: 1977,
@@ -112,7 +112,7 @@ const data_Album = [
     {
         id: 11,
         nombre: "THE WALL",
-        precio: 25.70,
+        precio: 25,
         stock: 20,
         img: "../../1979.webp",
         año: 1979,
@@ -123,7 +123,7 @@ const data_Album = [
     {
         id: 12,
         nombre: "THE WALL FILM - SOUNDTRACK",
-        precio: 11.40,
+        precio: 11,
         stock: 20,
         img: "../../1982.jpg",
         año: 1982,
@@ -134,7 +134,7 @@ const data_Album = [
     {
         id: 13,
         nombre: "THE FINAL CUT",
-        precio: 5.90,
+        precio: 5,
         stock: 20,
         img: "../../1983.webp",
         año: 1983,
@@ -145,7 +145,7 @@ const data_Album = [
     {
         id: 14,
         nombre: "A MOMENTARY LAPSE OF REASON",
-        precio: 18.20,
+        precio: 18,
         stock: 20,
         img: "../../1987.jpg",
         año: 1987,
@@ -156,7 +156,7 @@ const data_Album = [
     {
         id: 15,
         nombre: "DELICATE SOUND OF THUNDER",
-        precio: 11.60,
+        precio: 11,
         stock: 20,
         img: "../../1988.jpg",
         año: 1988,
@@ -167,7 +167,7 @@ const data_Album = [
     {
         id: 16,
         nombre: "THE DIVISION BELL",
-        precio: 15.00,
+        precio: 15,
         stock: 20,
         img: "../../1994.jpg",
         año: 1994,
@@ -178,7 +178,7 @@ const data_Album = [
     {
         id: 17,
         nombre: "PULSE",
-        precio: 15.00,
+        precio: 15,
         stock: 20,
         img: "../../1995.webp",
         año: 1995,
@@ -189,7 +189,7 @@ const data_Album = [
     {
         id: 18,
         nombre: "THE ENDLESS RIVER",
-        precio: 15.40,
+        precio: 15,
         stock: 20,
         img: "../../2014.jpg",
         año: 2014,
