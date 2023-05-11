@@ -8,8 +8,7 @@ const ItemList = ( {items} ) => {
                 {
                 items.map((cd) => <ItemCard item={cd} key={cd.id}/>)
                 }
-                <div>
-                <img src={flores} className="flores" alt="" /></div>
+                
             </div>
 
        
