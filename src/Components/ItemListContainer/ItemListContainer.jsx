@@ -2,7 +2,7 @@ import "./ItemListContainer.scss"
 import { useEffect, useState } from "react"
 import pedirDatos from "../../Helpers/pedirDatos"
 import ItemList from "../ItemList/ItemList"
-import CartWidget from '../CartWidget/cartWidget'
+
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
@@ -41,7 +41,7 @@ import { Link } from 'react-router-dom'
                         <Link to="/itemList/ochenta"><li>1980</li></Link>
                         <Link to="/itemList/noventa"><li>1990</li></Link>
                         <Link to="/itemList/dosmil"> <li>2000</li></Link>
-                        <CartWidget/>
+                        
                     </ul>
             </div>
             <div >

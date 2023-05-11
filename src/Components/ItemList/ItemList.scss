@@ -7,4 +7,16 @@
    
     text-align: center;
     gap:1rem;
+    position: relative;
   }
+
+  .flores{
+    width: 20rem;
+    height: 20.5rem;
+    position: absolute;
+
+    
+  }.flores:hover{
+      filter: drop-shadow(2px 2px 1rem rgb(255, 0, 0));
+      box-shadow: none;
+    }

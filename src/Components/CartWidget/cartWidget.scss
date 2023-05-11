@@ -3,6 +3,7 @@
 .carrito {
     width: 2rem;
     height: 2rem;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
     animation-name: girar;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -20,9 +21,11 @@
 
  .cantidad{
   font-family: 'Gruppo', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5rem;
  } 
   
-.flexCart{
+.flexCd{
   display: flex;
   align-items: center;
   gap:0.5rem;

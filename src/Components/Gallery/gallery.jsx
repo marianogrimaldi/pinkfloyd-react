@@ -11,16 +11,19 @@ import "./gallery.scss"
 
 const Gallery = () => {
     return(
-            <div className="gridGallery">
-                <img src={pic1} alt="" />
-                <img src={pic2} alt="" />
-                <img src={pic4} alt="" />
-                <img src={pic5} alt="" />
-                <img src={pic6} alt="" />
-                <img src={pic3} alt="" />
-                <img src={pic7} alt="" />
-                <img src={pic8} alt="" />
+
+            
+            <div  className="gridGallery">
+                <img src={pic1} className="animation"alt="" />
+                <img src={pic2} className="animation"alt="" />
+                <img src={pic4} className="animation"alt="" />
+                <img src={pic5} className="animation"alt="" />
+                <img src={pic6} className="animation"alt="" />
+                <img src={pic3} className="animation"alt="" />
+                <img src={pic7} className="animation"alt="" />
+                <img src={pic8}className="animation"alt="" />
             </div>
+            
     )
 }
 

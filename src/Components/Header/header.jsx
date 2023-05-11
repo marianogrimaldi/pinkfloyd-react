@@ -1,6 +1,7 @@
 import logo from "../../assets/img/pink.png"
 import "./header.scss"
 import { Link } from 'react-router-dom'
+import CartWidget from "../CartWidget/cartWidget"
 
 
 
@@ -18,7 +19,8 @@ const Header = () => {
                         <Link to="/itemList">  <li>discography</li></Link>
                         <a href="https://www.pinkfloyd.com/" target="blank_"><li>official site</li></a>
                         <Link to="./gallery"> <li>gallery</li></Link>
-                        <Link to="./contact"> <li>contact</li></Link>
+                        <Link to="./contact"> <li>contact</li></Link> <CartWidget/>
+                       
                     </ul>
                 </nav>
             </header>

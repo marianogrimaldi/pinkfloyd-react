@@ -1,0 +1,36 @@
+.titleCart{
+    font-family: 'Gruppo', cursive; 
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+img{
+    width: 20rem;
+}
+
+.flexCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.pCart{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 1rem;
+
+}
+
+.totalFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
