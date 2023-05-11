@@ -8,7 +8,7 @@ import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailCont
 import Info from './Components/Info/info';
 import Gallery from './Components/Gallery/gallery';
 import Home from './Components/Home/home';
-
+import ScrollToTop from './ScrollToTop';
 
 import './App.css'
 
@@ -23,6 +23,7 @@ function App() {
       <div className="App">
       
           <BrowserRouter>
+            <ScrollToTop/>
             <Header/>
               <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -30,7 +31,8 @@ function App() {
                 <Route path="/itemList" element={<ItemListContainer/>}/>     
                 <Route path="/itemList/:decadaCd" element={<ItemListContainer/>}/>
                 <Route path="/detail/:idCd" element={<ItemDetailContainer/>}/>
-                <Route path="/gallery" element={<Gallery/>}/>    
+                <Route path="/gallery" element={<Gallery/>}/>  
+                <Route path="*" element={<Navigate to={"/"}/>}/>
               </Routes>
             <Footer/>
           </BrowserRouter>

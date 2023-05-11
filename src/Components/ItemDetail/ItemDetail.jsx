@@ -1,19 +1,21 @@
 import "./ItemDetail.scss"
 import spotify from "../../assets/img/spotify.png"
 import ItemCount from "../ItemCount/ItemCount"
-import { useState } from "react"
+
 
 
 const ItemDetail = ({item}) => {
 
     
-
     return (
         <div className="flexDetail">
                 <div></div>
                     <div>
                     <img src={item.img}  className="imgCddetail"/>
-                    <ItemCount/>
+                    <ItemCount
+                        stock={item.stock}
+                        item={item}
+                    />
                 </div>
             <div>
                 <h3 className="tNombre">{item.nombre}</h3>

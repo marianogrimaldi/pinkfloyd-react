@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./ItemCount.scss"
 
 
-const ItemCount = () => {
+const ItemCount = ({stock, item }) => {
     const[cantidad, setCantidad] = useState(1)
 
     const handleRestar = () => {
@@ -10,7 +10,14 @@ const ItemCount = () => {
     }
 
     const handleSumar = () => {
-        setCantidad(cantidad + 1)
+        cantidad < stock && setCantidad(cantidad + 1)
+    }
+
+    const handleAdd = () => {
+        console.log({
+            ...item,
+            cantidad
+        })
     }
 
     return (
@@ -18,7 +25,7 @@ const ItemCount = () => {
             <button onClick={handleRestar} >-</button>
             <span >{cantidad} </span>
             <button onClick={handleSumar} >+</button>
-            <button>add to cart</button>
+            <button onClick={handleAdd}>add to cart</button>
             <br/>
             
         </div>
