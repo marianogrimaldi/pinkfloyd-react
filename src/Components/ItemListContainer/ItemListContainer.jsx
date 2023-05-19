@@ -1,11 +1,11 @@
 import "./ItemListContainer.scss"
 import { useEffect, useState } from "react"
-import pedirDatos from "../../Helpers/pedirDatos"
+//import pedirDatos from "../../Helpers/pedirDatos"
 import ItemList from "../ItemList/ItemList"
-
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-
+import { collection, getDocs, query, where } from "firebase/firestore"
+import { db } from "../../firebase/config"
 
   const ItemListContainer = () => {
 
@@ -17,17 +17,43 @@ import { Link } from 'react-router-dom'
      useEffect (() => {
         setLoading(true)
 
-        pedirDatos()
-        .then((data) => {
-            if (!decadaCd) {
-                setProductos(data)
-            } else {
-                setProductos( data.filter((el) => el.decada === decadaCd) )
-            }
-        })
-            .catch((error) => {
-                console.log(error)
+   //     pedirDatos()
+   //      .then((data) => {
+     //        if (!decadaCd) {
+    //             setProductos(data)
+   //          } else {
+    //             setProductos( data.filter((el) => el.decada === decadaCd) )
+   //          }
+    //     })
+    //         .catch((error) => {
+    //             console.log(error)
+    //         })
+
+
+        const productosRef = collection(db,"cds")
+        const q = decadaCd
+                    ? query(productosRef, where("decada", "==", decadaCd))
+                    : productosRef
+        
+
+        getDocs(q)
+            .then((res) => {
+                const docs = res.docs.map ((doc) => {
+                    return {
+                        ...doc.data(),
+                        id: doc.id
+                    }
+                })
+                console.log (docs)
+                setProductos(docs)
             })
+            .catch(e => console.log(e))
+            .finally(() => setLoading(false))
+
+
+
+
+
      }, [decadaCd])  
 
     return (

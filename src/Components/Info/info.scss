@@ -5,17 +5,3 @@
   text-shadow: 1px 1px 1px black;
   text-align: justify;
 }
-.animation{
-  animation-name: mianimacion;
-
-    animation-duration: 2s;
-}
-@keyframes mianimacion {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}

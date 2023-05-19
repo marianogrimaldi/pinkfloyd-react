@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <footer className="footerFlex">
-            <div>
+            <div id="footer">
                 <ul className="ulFooter">
                     <Link to="./." ><li>home</li></Link>
                     <Link to="./info"><li>info</li></Link>
