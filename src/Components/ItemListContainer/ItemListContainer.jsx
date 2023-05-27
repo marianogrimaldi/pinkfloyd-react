@@ -1,6 +1,5 @@
 import "./ItemListContainer.scss"
 import { useEffect, useState } from "react"
-//import pedirDatos from "../../Helpers/pedirDatos"
 import ItemList from "../ItemList/ItemList"
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
@@ -14,28 +13,25 @@ import { db } from "../../firebase/config"
     
     const { decadaCd } = useParams()
 
+    function compararPorOrden(a, b) {
+        if (a.order < b.order) {
+          return -1;
+        }
+        if (a.order > b.order) {
+          return 1;
+        }
+        return 0;
+      }
+
      useEffect (() => {
         setLoading(true)
 
-   //     pedirDatos()
-   //      .then((data) => {
-     //        if (!decadaCd) {
-    //             setProductos(data)
-   //          } else {
-    //             setProductos( data.filter((el) => el.decada === decadaCd) )
-   //          }
-    //     })
-    //         .catch((error) => {
-    //             console.log(error)
-    //         })
-
-
         const productosRef = collection(db,"cds")
+    
         const q = decadaCd
                     ? query(productosRef, where("decada", "==", decadaCd))
                     : productosRef
         
-
         getDocs(q)
             .then((res) => {
                 const docs = res.docs.map ((doc) => {
@@ -44,15 +40,13 @@ import { db } from "../../firebase/config"
                         id: doc.id
                     }
                 })
-                console.log (docs)
+                
                 setProductos(docs)
+                const ordered = docs.sort(compararPorOrden)
+                setProductos(ordered)
             })
             .catch(e => console.log(e))
             .finally(() => setLoading(false))
-
-
-
-
 
      }, [decadaCd])  
 

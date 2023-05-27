@@ -7,6 +7,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 
     img {
         width: 2rem;
@@ -20,7 +21,6 @@ footer{
         list-style-type: none;
     font-family: 'Gruppo', cursive;
     }
-    
 }
 
 .footerFlex{
@@ -32,4 +32,14 @@ footer{
 
 .logoFooter {
     width: 10rem;
+}
+
+.flexRedes{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    img{
+        width: 2rem;
+    }
 }

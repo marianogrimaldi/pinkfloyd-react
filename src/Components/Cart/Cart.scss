@@ -5,7 +5,7 @@
     text-shadow: 1px 1px 1px black;
 }
 
-img{
+.album{
     width: 20rem;
 }
 
@@ -14,9 +14,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
-    
-    
+    margin-bottom: 2rem;  
 }
 
 .pCart{
@@ -25,7 +23,6 @@ img{
     padding: 0;
     text-shadow: 1px 1px 1px black;
     margin-bottom: 1rem;
-
 }
 
 .totalFlex{
@@ -33,4 +30,9 @@ img{
     justify-content: center;
     align-items: center;
     gap:2rem;
+    margin-bottom: 4rem;
+}
+
+button{
+    cursor: pointer;
 }

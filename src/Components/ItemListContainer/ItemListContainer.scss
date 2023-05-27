@@ -1,21 +1,19 @@
-
-
 .selectAlbum{
   text-align: center;
   font-size: 1.5rem;
 }
 
-  .ulFlexDecade{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    padding-inline-start: 0px;
-    gap: 3rem;
-    font-family: 'Gruppo', cursive;
-    color:white;
-    margin-bottom: 2rem;
+.ulFlexDecade{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-inline-start: 0px;
+  gap: 3rem;
+  font-family: 'Gruppo', cursive;
+  color:white;
+  margin-bottom: 2rem;
 
-        li{
-          font-size: 1.5rem;
-        }
-  }
+      li{
+        font-size: 1.5rem;
+      }
+}

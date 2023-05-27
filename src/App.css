@@ -3,8 +3,6 @@
   
 }
 
-
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -32,6 +30,7 @@
   animation-name: mianimacion;
   animation-duration: 2s;
 }
+
 @keyframes mianimacion {
   0% {
     opacity: 0;

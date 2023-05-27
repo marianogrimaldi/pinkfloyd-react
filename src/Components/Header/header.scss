@@ -1,4 +1,3 @@
-
 .logo {
     height: 8rem;
     padding: 1.5em;
@@ -14,19 +13,13 @@
     max-width: 1200px;
   }
   
-  
-  
   .headerFlex{
     display: flex;
    align-items: center;
    justify-content: center;
    justify-content: space-between;
-   
    background-image:linear-gradient(45deg,black,black, black, rgb(114, 15, 103), red, orange, yellow, white )
   }
-  
- 
-
   
 .navSupStyles{
   display: flex;
@@ -40,16 +33,8 @@
       font-family: 'Gruppo', cursive;
       font-size: 1rem;
       align-items: center;
-      padding-right: 2rem;
-     
-    
+      padding-right: 2rem; 
   }
-    
-   
-    
-
-   
-
   }
     li{
         
@@ -57,7 +42,6 @@
           font-size: 1.5rem;
           font-weight: bolder;
           text-shadow: 1px 1px 1px black;
-
       } 
 li:hover{
           color: goldenrod;

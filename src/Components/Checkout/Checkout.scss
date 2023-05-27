@@ -1,0 +1,111 @@
+.flexCheck{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        h1{
+            font-family: 'Gruppo', cursive;
+            font-size: 4rem;
+            text-shadow: 1px 1px 1px black;
+            margin-bottom: 0;
+        }
+        h3{
+            text-shadow: 3px 3px 3px black;
+            margin-top: 0;
+            font-weight: bolder;
+            font-size: 2.5rem;
+        }
+}
+
+.flexRoger{
+    display: flex;
+    justify-content: center;
+}
+
+.roger{
+    position: absolute;
+    width: 70rem;
+    opacity: .8; 
+}
+
+.form{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+    input{
+        font-family: 'Gruppo', cursive;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        width: 30rem;
+        color: black; 
+    }
+}
+
+.flexError{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     h2{
+        font-family: 'Gruppo', cursive;
+        font-size: 3rem;
+        text-shadow: 1px 1px 1px black;
+        color: rgb(255, 255, 255);
+     }
+     p{
+        font-size: 2rem;
+        cursor: pointer;
+        text-shadow: 1px 1px 1px black;
+     }
+}
+
+.flexPurch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+        h2{
+            font-family: 'Gruppo', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        margin-bottom: 0;
+        }
+
+        p{
+            font-family: 'Gruppo', cursive;
+        font-size: 2rem;
+        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        margin-bottom: 0;
+        }
+
+        .order{
+            color:red;
+            text-shadow: 1px 1px 1px black;
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+}
+
+.flexPink{
+    display: flex;
+    justify-content: center;
+
+    img{
+        position: absolute;
+    width: 53rem;
+    opacity: .3;
+    }
+}
+
+.swal{
+    font-family: 'Gruppo', cursive;
+    background-color: rgb(255, 255, 255);
+}
+

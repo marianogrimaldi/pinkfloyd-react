@@ -8,22 +8,18 @@ import pic7 from "../../assets/img/gallery/7.jpg"
 import pic8 from "../../assets/img/gallery/8.jpg"
 import "./gallery.scss"
 
-
 const Gallery = () => {
     return(
-
-            
             <div  className="gridGallery">
-                <img src={pic1} className="animation"alt="" />
-                <img src={pic2} className="animation"alt="" />
-                <img src={pic4} className="animation"alt="" />
-                <img src={pic5} className="animation"alt="" />
-                <img src={pic6} className="animation"alt="" />
-                <img src={pic3} className="animation"alt="" />
-                <img src={pic7} className="animation"alt="" />
-                <img src={pic8}className="animation"alt="" />
+                <img src={pic1} className="animation"alt="Foto banda" />
+                <img src={pic2} className="animation"alt="Foto banda" />
+                <img src={pic4} className="animation"alt="Foto banda" />
+                <img src={pic5} className="animation"alt="Foto banda" />
+                <img src={pic6} className="animation"alt="Foto banda" />
+                <img src={pic3} className="animation"alt="Foto banda" />
+                <img src={pic7} className="animation"alt="Foto banda" />
+                <img src={pic8} className="animation"alt="Foto banda" />
             </div>
-            
     )
 }
 
